@@ -1,0 +1,57 @@
+/* body{
+    width: 210mm;
+    height: 297mm;
+} */
+
+.biggest{
+    display: flex;
+    height: 400px;
+    width: 1000px;
+    border:1px solid gray;
+    margin: auto;
+}
+
+
+
+.left a img{
+    height: 100%;}
+    
+
+.right{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.right-1{
+    height: 15%;
+    text-align: center;
+}
+.right-1 a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.right-1 a img{
+    height: 50%;
+}
+
+.right-2{
+    display: inline-block;
+    height: 40%;
+}
+
+.right-2 img{
+    height: 100%;
+}
+
+.right-3{
+    display: inline-block;
+    height: 40%;
+}
+
+.right-3 img{
+    height: 100%;
+}
